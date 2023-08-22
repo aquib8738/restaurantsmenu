@@ -1,0 +1,709 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    transition: all .2s linear;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 9.5vh;
+    align-items: center;
+    padding: 0px 81px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo {
+    font-size: 1.9rem;
+    text-decoration: none;
+    color: #192a56;
+    font-weight: 600;
+}
+
+.logo i {
+    color: #27ae60;
+}
+
+.icons a {
+    font-size: 1.3rem;
+    color: #192a56;
+    text-decoration: none;
+    background-color: #e0e0d1;
+    border-radius: 50%;
+    padding: 9px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0 17px;
+    color: #666;
+    font-weight: 500px;
+    font-size: 18px;
+}
+
+header .active {
+    background-color: #27ae60;
+    padding: 5px 16px;
+    border-radius: 8px;
+    color: white;
+    margin-top: 20px;
+}
+
+nav a:hover {
+    background-color: #27ae60;
+    padding: 5px 16px;
+    border-radius: 8px;
+    color: white;
+}
+
+.icons a:hover {
+    background-color: #27ae60;
+    transform: rotate(360deg);
+    transition: .4s;
+}
+
+header .icons #menu-bars {
+    display: none;
+}
+
+.main-img {
+    height: 90vh;
+    width: 50vw;
+    margin-left: 100px;
+    display: grid;
+    place-items: center;
+}
+
+.content span {
+    color: #27ae60;
+    font-size: 2rem;
+}
+
+.content h3 {
+    font-size: 81px;
+    font-family: 'Nunito', sans-serif;
+    color: #192a56;
+}
+
+.main {
+    display: flex;
+    height: 87vh;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.9);
+    z-index: -2;
+}
+
+.btn,
+.btn1 {
+    background-color: #192a56;
+    color: white;
+    padding: 7px 17px;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    border: none;
+}
+
+.content .btn:hover {
+    background-color: #27ae60;
+    letter-spacing: 0.18rem;
+}
+
+.content p {
+    color: #666;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+
+/*popular dishes*/
+
+.po-dishes {
+    background-color: #e0e0d1;
+    padding-bottom: 30px;
+}
+
+.po-dishes p,
+.about p,
+.h-menu p,
+.cus-head p,
+.order p {
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 12px;
+    color: #27ae60;
+    font-weight: 700;
+}
+
+.po-dishes h4,
+.about h4,
+.h-menu h4,
+.cus-head h4,
+.order h4 {
+    color: #192a56;
+    text-align: center;
+    font-size: 2.1rem;
+    margin-bottom: 20px;
+}
+
+.po-dishes i {
+    color: #27ae60;
+}
+
+.dish1 {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 38vh;
+    height: 26.2rem;
+    border-radius: 10px;
+}
+
+.di-img {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 0 100px;
+}
+
+.dish1 img {
+    margin-top: 27px;
+}
+
+.di-img2 {
+    display: flex;
+    text-align: center;
+    margin: 0 105px;
+    margin-top: 25px;
+}
+
+.di-img2 .dish1 {
+    margin-left: 24px;
+}
+
+.btn:hover {
+    background-color: #27ae60;
+    padding: 7px 30px;
+}
+
+
+/*about us*/
+
+.about {
+    margin-top: 20px;
+}
+
+.main-img2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-card2 img {
+    width: 45vw;
+}
+
+.about-content2 {
+    width: 45vw;
+    color: red;
+    line-height: 30px;
+}
+
+.about-content2 P {
+    color: #666;
+}
+
+.about-content2 h4 {
+    color: #192a56;
+    font-size: 45px;
+    margin-bottom: 17px;
+}
+
+.icons-container {
+    display: flex;
+    gap: 11px;
+}
+
+.icons-container .icons {
+    background-color: #eee;
+    border: .1rem solid rgba(0, 0, 0, .2);
+    padding: 10px 31px;
+    border-radius: 5px;
+    margin-top: 12px;
+    align-items: center;
+}
+
+.icons-container .fas {
+    color: #27ae60;
+    font-size: 26px;
+}
+
+.icons-container span {
+    color: #192a56;
+    margin-left: 8 px;
+    font-size: 18px;
+}
+
+
+/*<!-- Our Dishes POPULAR DISHES -->*/
+
+.full-menu {
+    background-color: #e0e0d1;
+    padding-bottom: 25px;
+}
+
+.full-menu i {
+    color: #27ae60;
+}
+
+.full-menu h3 {
+    color: #192a56;
+    font-size: 1.8rem;
+}
+
+.full-menu p {
+    color: #666;
+}
+
+.main-menu {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.h-menu {
+    padding: 10px 0px;
+}
+
+.menu-img {
+    height: 20rem;
+    width: 100%;
+    padding: 1.5rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.menu-img img {
+    height: 100%;
+    width: 100%;
+    border-radius: .5rem;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu-img .fas {
+    position: absolute;
+    text-decoration: none;
+    right: 2.5rem;
+    top: 2rem;
+    background-color: white;
+    border-radius: 100%;
+    padding: 13px;
+    color: #192a56;
+    font-size: 1.3rem;
+}
+
+.menu-img .fas:hover {
+    background-color: #27ae60;
+    color: white;
+}
+
+.card-menu {
+    background: #fff;
+    border: .1rem solid rgba(0, 0, 0, .2);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    width: 27vw;
+}
+
+.menu-content3 {
+    align-items: center;
+    margin: 0px 25px;
+    padding-bottom: 20px;
+}
+
+.menu-price {
+    color: #27ae60;
+    font-size: 1.8rem;
+    margin-left: 2rem;
+    font-weight: 600;
+}
+
+
+/*<!-- Customer's Review -///////////////-> -->*/
+
+.man-img img {
+    width: 80px;
+    border-radius: 100%;
+}
+
+.card-riw {
+    border: .1rem solid rgba(0, 0, 0, .2);
+    width: 30vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-main2 {
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+    margin: 0px 50px;
+}
+
+.star-review {
+    display: flex;
+    padding: 10px 26px;
+}
+
+.stars {
+    margin: 20px;
+}
+
+.re-para {
+    padding: 20px;
+    color: #666;
+}
+
+.stars .fas {
+    color: #27ae60;
+}
+
+.stars p3 {
+    color: #192a56;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+
+/*<!--  form Order Now FREE AND FAST //////////-->*/
+
+#order {
+    background-color: #e0e0d1;
+    margin-top: 20px;
+}
+
+.order form {
+    max-width: 65rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border: .1rem solid rgba(0, 0, 0, .2);
+    background: #fff;
+    padding: 1.5rem;
+    margin: 0 auto;
+}
+
+.inputBox {
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputBox input {
+    width: 30rem;
+    height: 2.3rem;
+    margin: 10px;
+    background-color: #e0e0d1;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+
+.inputBox span {
+    align-items: center;
+    margin-left: 16px;
+    color: #666;
+}
+
+.inputBox textarea {
+    width: 27rem;
+    margin-top: 1rem;
+    background-color: #e0e0d1;
+    height: 14rem;
+}
+
+
+/*footer ///*/
+
+footer {
+
+
+    display: flex;
+    justify-content: center;
+    padding-top:.5rem ;
+}
+
+.foot1 a {
+    display: block;
+    color: #666;
+    text-decoration: none;
+}
+.foot1{
+    margin: 5px 5rem;
+ }
+.foot1 h2 {
+    color: #192a56;
+    font-size: 1.6rem;
+}
+
+.foot1 a:hover {
+    color: #27ae60;
+}
+
+.credit {
+    color: #192a56;
+    text-align: center;
+    font-size: 1.4rem;
+    margin: 20px 0px;
+}
+
+.credit span {
+    color: #27ae60;
+    font-size: 2rem;
+}
+
+
+/*scrolling button*/
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #192a56;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    background-color: #27ae60;
+}
+
+
+/*resposive mobile///////////////*/
+
+@media (max-width:886px) {
+    body {
+        overflow-x: hidden;
+    }
+    .navbar {
+        position: absolute;
+        top: 63px;
+        left: 0;
+        background-color: #fff;
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        width: 80vw;
+        text-align: center;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+    .navbar a {
+        display: block;
+        padding: 1rem;
+        margin: 1rem;
+        background-color: #eee;
+        color: black;
+        font-weight: 600;
+    }
+    header .navbar.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    header .icons #menu-bars {
+        display: inline-block;
+    }
+    header {
+        padding: 30px 25px;
+    }
+    .main {
+        display: block;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .main-img img {
+        width: 70vw;
+        position: relative;
+    }
+    .dish1 {
+        width: 80%;
+        height: 26.2rem;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
+    .di-img,
+    .di-img2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .about-content2 h4 {
+        font-size: 2.4rem;
+    }
+    .main-img2 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .about-card2 img {
+        width: 28rem;
+    }
+    .main-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-menu {
+        width: 60vw;
+    }
+    .card-main2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .card-riw {
+        width: 60vw;
+    }
+    .inputBox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .inputBox input {
+        width: 25rem;
+        display: block;
+    }
+    .inputBox textarea {
+        text-align: center;
+        align-items: center;
+        width: 24rem;
+        height: 13rem;
+    }
+    .area {
+        display: block;
+    }
+    #order .btn {
+        margin-left: 2.9rem;
+    }
+
+    footer{
+    flex-direction: column;
+    align-items: center;
+ }
+ .foot1  a{
+    text-align: center;
+ }
+}
+
+
+/*//////////////*/
+
+@media (max-width:498px) {
+    .content p {
+        font-size: 1.2rem;
+        margin: 0px 5px;
+        margin-bottom: 20px;
+    }
+    .main-img img {
+        width: 100vw;
+    }
+    .main-img {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        place-items: center;
+    }
+    .about-card2 img {
+        width: 23rem;
+    }
+
+    .dish1 {
+        width: 80vw;
+        height: 26.2rem;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
+    .icons-container {
+        gap: 11px;
+        display: none;
+    }
+    .icons-container .icons {
+        padding: 4px 10px;
+    }
+    .icons-container .fas {
+        font-size: 17px;
+    }
+    .about-content2 h4 {
+        line-height: 40px;
+    }
+    .card-menu {
+        width: 90vw;
+    }
+    .card-riw {
+        width: 77vw;
+    }
+    .menu-img img {
+        width: 100%;
+    }
+    .inputBox input {
+        width: 20rem;
+        display: block;
+    }
+    .inputBox textarea {
+        text-align: center;
+        align-items: center;
+        width: 20rem;
+        height: 12rem;
+    }
+ footer{
+    flex-direction: column;
+ }
+
+.foot1 h2{
+text-align: center;
+margin: 0px 20px;
+}
+ 
+
+
+.foot1 a{
+text-align: center;
+margin: 0px 20px;
+}  
+
+    .credit{
+        margin: 0rem .7rem;
+        padding-bottom: 1.7rem;
+    }
+
+}
